@@ -1,15 +1,7 @@
 CSS VIEJO 
-/* 
-*{
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-} */
 
 
-/* #principal{
+ #principal{
     
     height: 750px;
     margin: 0px auto;
@@ -24,12 +16,12 @@ header{
 
 section{
     
-    height: 850px;
+    height: 900px;
     background: orange;
     background-image: url(/assets/img/section.jpg) ;
     background-size: cover;
     background-position:  center;
-    background-attachment: fixed   
+    background-attachment: fixed;   
     
 }
 
@@ -46,30 +38,6 @@ h1{
     h1 a{
         color: aliceblue;
     }
-
-ul{
-    float: right;
-    margin-right: 20px;
-}
-
-ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-ul li a{
-    color: aliceblue;
-    font-size: 18px;
-    padding: 7px 13px;
-    text-transform: uppercase;
-}
-
-ul li a:hover{
-    color: lightskyblue;
-    background-color: rgb(255, 255, 255);
-    border-radius: 3px;
-}
 
 footer{
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -100,8 +68,10 @@ img{
     margin-left: 25px;
     filter: drop-shadow( 1px 1px 3px black);
 }
+
 .presentacion{
 padding-top: 320px;
+
 }
 
 .historia{
@@ -124,7 +94,7 @@ padding-top: 320px;
     
     align-items: center;
     width: 500px;
-    display: inline-block
+    display: inline-block;
 }
 
 
@@ -154,18 +124,6 @@ form{
     color: rgb(255, 255, 255);
     margin-top: 0;
     padding: 0 40px;
-} */
+} 
 
 
-/* Barra de navegacion nueva */
-
-.navbar navbar-expand-md bg-body-tertiary {
-    padding: 200rem;
-    background-color: #69b6d4;
-    margin: 0;
-}
-
-.navbar-collapse{
-    align-items: center;
-    justify-content: space-between ;
-}
