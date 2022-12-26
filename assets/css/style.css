@@ -16,7 +16,7 @@ header{
 
 section{
     
-    height: 900px;
+    min-height: 90vh;
     background: orange;
     background-image: url(/assets/img/section.jpg) ;
     background-size: cover;
@@ -24,6 +24,14 @@ section{
     background-attachment: fixed;   
     
 }
+
+/* @media (max-width: 767px) {
+section{
+    background-position: left;
+}
+} */
+
+
 
 footer{
     
@@ -49,13 +57,17 @@ footer{
 section p{
     color: aliceblue;
     padding: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;}
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 2px black , 3px 3px 5px black;
+}
 
     
 h4{
     color: aliceblue;
-    padding: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;} 
+    padding-left: 40px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 2px black , 3px 3px 5px black;
+} 
 
 h2{
     margin-top: 0px;
@@ -69,10 +81,7 @@ img{
     filter: drop-shadow( 1px 1px 3px black);
 }
 
-.presentacion{
-padding-top: 320px;
 
-}
 
 .historia{
     color: aliceblue;
@@ -82,6 +91,23 @@ padding-top: 320px;
    
 }
     
+.presentacion{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     
+}
+
+@media (max-width: 767px) {
+.presentacion{
+    padding-top: 250px;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+} 
+
 .fotos{
     margin-top: 0px;
     padding-left: 210px;
