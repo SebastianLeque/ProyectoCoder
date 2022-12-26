@@ -1,12 +1,12 @@
 CSS VIEJO 
-
+/* 
 *{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-}
+} */
 
 
 /* #principal{
@@ -159,8 +159,8 @@ form{
 
 /* Barra de navegacion nueva */
 
-.navbar {
-    padding: 2rem;
+.navbar navbar-expand-md bg-body-tertiary {
+    padding: 200rem;
     background-color: #69b6d4;
     margin: 0;
 }
