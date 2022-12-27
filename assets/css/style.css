@@ -151,17 +151,88 @@ padding: 5px;
 } */
 
 
-form{
-    color: aliceblue;
-    margin: 20px 40px;
-    padding-top: 0px;
+/* Formulario */
+
+.contacto{
+    box-sizing: border-box;
+    background-color: #151e33;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.contacto p{
-    color: rgb(255, 255, 255);
-    margin-top: 0;
-    padding: 0 40px;
-} 
+.create {
+    width: 100%;
+    max-width: 550px;
+    min-width: 320px;
+    border-radius: 15px;
+    background-color: #69B6D4;
+    padding: 0px;
+    margin: 0 auto;
+}
 
+a {
+    color: #e3627f; text-decoration: none;
+}
+
+/* Content */
+
+.content {
+    width: 65%;
+    margin: 0 auto;
+
+}
+
+
+.content p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+/* Form */
+
+.form {
+    margin-top: 2rem;
+}
+.form label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: .3rem;
+    margin-top: 0px;
+
+}
+
+.form input {
+    display: block;
+    border: none;
+    width: 100%;
+}
+
+.form input:not([type="submit"]){
+background-color: transparent;
+border: 1px solid #495e8d;
+border-radius: 5px;
+margin-bottom: 1rem;
+color: white;
+
+}
+
+
+
+.form input[type="submit"] {
+    border-radius: 5px;
+    background-color: #0076fd;
+    color: white;
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
 
