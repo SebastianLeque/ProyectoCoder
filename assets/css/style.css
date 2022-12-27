@@ -1,238 +1,185 @@
-CSS VIEJO 
-
-
- #principal{
-    
-    height: 750px;
-    margin: 0px auto;
-    
+section {
+  min-height: 90vh;
+  background-image: url(../../assets/img/section.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0 auto;
 }
 
-header{
-    
-    height: 80px;
-    background: #69b6d4;
+footer {
+  height: 50px;
+  background: #69b6d4;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 15px;
 }
 
-section{
-    
-    min-height: 90vh;
-    background-image: url(../../assets/img/section.jpg) ;
-    background-size: cover;
-    background-position:  center;
-    background-attachment: fixed;   
-    margin: 0 auto;
+section p {
+  color: aliceblue;
+  padding: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 1px 2px 2px black, 3px 3px 5px black;
 }
 
-
-
-footer{
-    height: 50px;
-    background: #69b6d4;
+h4 {
+  color: aliceblue;
+  padding-left: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 1px 2px 2px black, 3px 3px 5px black;
 }
 
-h1{
-    position: absolute;
-    padding: 20px 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;}
-
-h1 a{
-        color: aliceblue;
-    }
-
-footer{
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    text-align: center;
-    color: aliceblue;
-    padding-top: 15px;
+img {
+  width: 100px;
+  margin-left: 25px;
+  filter: drop-shadow(1px 1px 3px black);
 }
 
-section p{
-    color: aliceblue;
-    padding: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 1px 2px 2px black , 3px 3px 5px black;
-}
-
-    
-h4{
-    color: aliceblue;
-    padding-left: 40px; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 1px 2px 2px black , 3px 3px 5px black;
-} 
-
-h2{
-    margin-top: 0px;
-    color: rgb(255, 255, 255);
-    padding: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 1px 2px 2px black , 3px 3px 5px black;
-} 
-
-img{
-    width: 100px;
-    margin-left: 25px;
-    filter: drop-shadow( 1px 1px 3px black);
-}
-
-
-
-.historia{
-    color: aliceblue;
-    padding: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 1px 1px 5px black, 3px 3px 5px black, 0 0 12px black;
-    margin: 0;
-}
-    
-.presentacion{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-     
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 @media (max-width: 767px) {
-.presentacion{
-    padding-top: 250px;
+  .presentacion {
+    padding-top: 280px;
     align-items: center;
     justify-content: flex-end;
     text-align: center;
-}
-} 
-
-.fotos{
-    margin: 0;
-    padding: 0;
+  }
 }
 
-.columnas img{
-    width: 100%;
-    margin: 0;
-    margin-top: 8px;
+.historia {
+  color: aliceblue;
+  padding: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 5px black, 3px 3px 5px black, 0 0 12px black;
+  margin: 0;
 }
 
-.filas{
-    display: flex;
-    padding: 5px;
-    flex-wrap: wrap;
-   
+/* Fotos */
+.columnas img {
+  width: 100%;
+  margin: 0;
+  margin-top: 8px;
 }
 
-.columnas{
-flex: 25%;
-padding: 5px;
+.filas {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.columnas {
+  flex: 25%;
+  padding: 5px;
 }
 
 @media (max-width: 766px) {
-    .columnas{
-        flex: 100%;
-    }
+  .columnas {
+    flex: 100%;
+  }
 }
-
-.contacto{
-  
-    flex-direction: column;
-}
-
-.videos{
-    text-align: center;
-    padding-top: 2px;  
-}
-
-.ratio{
-    margin-top: 20px;
-    padding: 0px;
-}
-/* iframe{
-    margin-left: 40px;
-} */
-
 
 /* Formulario */
-
-.contacto{
-    box-sizing: border-box;
-    background-color: #151e33;
-    color: white;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.videos {
+  text-align: center;
+  padding-top: 2px;
 }
 
+.ratio {
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.contacto {
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .create {
-    width: 100%;
-    max-width: 550px;
-    min-width: 320px;
-    border-radius: 15px;
-    background-color: #69B6D4;
-    padding: 0px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 550px;
+  min-width: 320px;
+  border-radius: 15px;
+  background-color: #69b6d4;
+  padding: 0px;
+  margin: 0 auto;
+  border: 1px solid rgb(0, 0, 0, 0.4);
 }
-
-a {
-    color: #e3627f; text-decoration: none;
-}
-
-/* Content */
 
 .content {
-    width: 65%;
-    margin: 0 auto;
-
+  width: 65%;
+  margin: 0 auto;
 }
-
 
 .content p {
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    margin: 0px;
-    padding: 20px 0px 0px 0px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
 }
-
-/* Form */
 
 .form {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 .form label {
-    font-size: 14px;
-    font-weight: bold;
-    display: block;
-    margin-bottom: .3rem;
-    margin-top: 0px;
-
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.3rem;
+  margin-top: 0px;
 }
 
 .form input {
-    display: block;
-    border: none;
-    width: 100%;
+  display: block;
+  border: none;
+  width: 100%;
 }
 
-.form input:not([type="submit"]){
-background-color: transparent;
-border: 1px solid #495e8d;
-border-radius: 5px;
-margin-bottom: 1rem;
-color: white;
-
+.form input:not([type="submit"]) {
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  color: rgb(0, 0, 0);
 }
-
-
 
 .form input[type="submit"] {
-    border-radius: 5px;
-    background-color: #0076fd;
-    color: white;
-    font-weight: bold;
-    padding: 1.5rem 3rem;
-    cursor: pointer;
-    margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #0076fd;
+  color: white;
+  font-weight: bold;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  margin-bottom: 20px;
 }
 
+/* animacion */
+
+.navbar-brand {
+  animation-name: navbar;
+  animation-duration: 10s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes navbar {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 50px;
+  }
+  100% {
+    left: 0;
+  }
+}
